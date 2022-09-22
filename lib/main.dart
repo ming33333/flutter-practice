@@ -71,7 +71,7 @@ class _RootPageState extends State<RootPage> {
           NavigationDestination(icon: Icon(Icons.person), label: 'Profile'),
           NavigationDestination(icon: Icon(Icons.person), label: 'Test'),
           NavigationDestination(icon: Icon(Icons.forest_outlined), label: 'Magic Forest'),
-          NavigationDestination(icon: Icon(Icons.home_filled), label: 'Magic Vill'),
+          NavigationDestination(icon: Icon(Icons.home_filled), label: 'Magical Village'),
         ],
         onDestinationSelected: (int index) {
           setState(() {
