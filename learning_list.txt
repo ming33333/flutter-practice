@@ -1,0 +1,19 @@
+monday and tuesday: add cool stuff
+-monday animations: "https://flutter.github.io/samples/web/animations/#/" (carousel)
+ -learn how to upload all images in a file?
+ -learn how to properly size and locate text and buttons
+ -make clicking on image go somewhere
+ -learn widgets https://docs.flutter.dev/development/ui/widgets/material
+ -check out shrine and rally, they cool widget and animations: https://gallery.flutter.dev/#/shrine
+ -lots of good stuff here: https://gallery.flutter.dev/#/ 
+  -https://gallery.flutter.dev/#/demo/data-table , https://gallery.flutter.dev/#/demo/pickers 
+- tuesday: learn how to take input? text input and lead to data source..etc
+ - readd images to pubspec
+ - js and flutter: https://fireship.io/snippets/using-js-with-flutter-web/
+cool stuff:
+-google maps: https://www.youtube.com/watch?v=RpQLFAFqMlw
+-games on flutter: https://www.youtube.com/watch?v=zGgeBNiRy-8
+- start screen animation (splash screen): https://www.youtube.com/watch?v=xZmTxHZ_0AM
+-be able to recreate websites like this: https://www.alibabagroup.com/en-US/ and https://flutter.dev/showcase/alibaba-group
+wednesday attach api call
+all builds mastered (like how to navigate to pages, upload information, develop a whole front end)
