@@ -66,7 +66,7 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(title)),
+      appBar: AppBar(title: Text(title)), 
       body: const Center(
 
         child: Text('My Page!'),
@@ -81,7 +81,7 @@ class MyHomePage extends StatelessWidget {
           children: [
             const DrawerHeader(
               decoration: BoxDecoration(
-                color: Colors.blue,
+                color: Colors.blue, 
               ),
               child: Text('Drawer Header'),
             ),

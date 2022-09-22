@@ -1,6 +1,8 @@
 import 'package:five_apps/home_page.dart';
 import 'package:five_apps/profile_page.dart';
 import 'package:five_apps/test_page.dart';
+import 'package:five_apps/MagicForest.dart';
+import 'package:five_apps/MagicVillage.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 
@@ -19,7 +21,22 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(primarySwatch: Colors.amber),
+      theme: ThemeData(
+    // Define the default brightness and colors.
+    brightness: Brightness.dark,
+    primaryColor: Colors.lightBlue[800],
+
+    // Define the default font family.
+    fontFamily: 'Georgia',
+
+    // Define the default `TextTheme`. Use this to specify the default
+    // text styling for headlines, titles, bodies of text, and more.
+    textTheme: const TextTheme(
+      headline1: TextStyle(fontSize: 72.0, fontWeight: FontWeight.bold),
+      headline6: TextStyle(fontSize: 36.0, fontStyle: FontStyle.italic),
+      bodyText2: TextStyle(fontSize: 14.0, fontFamily: 'Hind'),
+    ),
+  ),
       home: const RootPage(),
     );
   }
@@ -34,7 +51,7 @@ class RootPage extends StatefulWidget {
 
 class _RootPageState extends State<RootPage> {
   int currentPage = 0;
-  List<Widget> pages = const [HomePage(), ProfilePage(), TestPage()];
+  List<Widget> pages = const [HomePage(), ProfilePage(), TestPage(),MagicForest(),MagicVillage()];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -53,6 +70,8 @@ class _RootPageState extends State<RootPage> {
           NavigationDestination(icon: Icon(Icons.home), label: 'Home'),
           NavigationDestination(icon: Icon(Icons.person), label: 'Profile'),
           NavigationDestination(icon: Icon(Icons.person), label: 'Test'),
+          NavigationDestination(icon: Icon(Icons.forest_outlined), label: 'Magic Forest'),
+          NavigationDestination(icon: Icon(Icons.home_filled), label: 'Magic Village'),
         ],
         onDestinationSelected: (int index) {
           setState(() {

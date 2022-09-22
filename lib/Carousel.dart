@@ -18,6 +18,7 @@ class CarouselDemo extends StatelessWidget {
   @override
   Widget build(context) {
     return Scaffold(
+      
       appBar: AppBar(
         title: const Text('Carousel Demo'),
       ),

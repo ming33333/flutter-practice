@@ -17,3 +17,8 @@ cool stuff:
 -be able to recreate websites like this: https://www.alibabagroup.com/en-US/ and https://flutter.dev/showcase/alibaba-group
 wednesday attach api call
 all builds mastered (like how to navigate to pages, upload information, develop a whole front end)
+
+thursday:
+-add google mapsz; https://www.youtube.com/watch?v=RpQLFAFqMlw
+-add quiz: https://www.geeksforgeeks.org/basic-quiz-app-in-flutter-api/
+-learn and setup proper api call and function
