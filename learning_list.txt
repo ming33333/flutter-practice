@@ -20,5 +20,6 @@ all builds mastered (like how to navigate to pages, upload information, develop 
 
 thursday:
 -add google mapsz; https://www.youtube.com/watch?v=RpQLFAFqMlw
+-login pages:
 -add quiz: https://www.geeksforgeeks.org/basic-quiz-app-in-flutter-api/
 -learn and setup proper api call and function
