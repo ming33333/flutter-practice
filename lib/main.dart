@@ -3,6 +3,7 @@ import 'package:five_apps/profile_page.dart';
 import 'package:five_apps/test_page.dart';
 import 'package:five_apps/MagicForest.dart';
 import 'package:five_apps/MagicVillage.dart';
+import 'package:five_apps/quiz.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 
@@ -69,7 +70,7 @@ class _RootPageState extends State<RootPage> {
         destinations: const [
           NavigationDestination(icon: Icon(Icons.home), label: 'Home'),
           NavigationDestination(icon: Icon(Icons.person), label: 'Profile'),
-          NavigationDestination(icon: Icon(Icons.person), label: 'Test'),
+          NavigationDestination(icon: Icon(Icons.person), label: 'Test Page'),
           NavigationDestination(icon: Icon(Icons.forest_outlined), label: 'Magic Forest'),
           NavigationDestination(icon: Icon(Icons.home_filled), label: 'Magical Village'),
         ],

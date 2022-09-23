@@ -21,6 +21,6 @@ all builds mastered (like how to navigate to pages, upload information, develop 
 thursday:
 -add google mapsz; https://www.youtube.com/watch?v=RpQLFAFqMlw
 -login pages:
--heroku: https://www.youtube.com/watch?v=VRoZZS_L8kA
+x-heroku: https://www.youtube.com/watch?v=VRoZZS_L8kA
 -add quiz: https://www.geeksforgeeks.org/basic-quiz-app-in-flutter-api/
--learn and setup proper api call and function
+-learn and setup proper api call and function: call from own rest api : https://www.youtube.com/watch?v=_kaUrygqpC8

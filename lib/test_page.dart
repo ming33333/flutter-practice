@@ -4,6 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:five_apps/LogoExpandAnim.dart';
 import 'package:five_apps/learn_flutter_page.dart';
 import 'MagicalWorld.dart';
+import 'package:five_apps/quiz.dart';
+import 'package:five_apps/CardSwipe.dart';
+
 
 class TestPage extends StatelessWidget {
   const TestPage({super.key});
@@ -66,6 +69,26 @@ class TestPage extends StatelessWidget {
               );
             },
             child: const Text('A Magical World'),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(builder: (BuildContext context) {
+                  return const Quiz();
+                }),
+              );
+            },
+            child: const Text('Quiz time!'),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(builder: (BuildContext context) {
+                  return const CardSwipe();
+                }),
+              );
+            },
+            child: const Text('CardSwipe'),
           ),
         ],
       ),
